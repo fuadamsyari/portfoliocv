@@ -26,13 +26,6 @@ body {
   height: 20em;
 }
 
-.skill1 {
-  /* background-color: salmon; */
-}
-
-.skill2 {
-  /* background-color: skyblue; */
-}
 
 .listskills li {
   background-color: rgb(245, 245, 245) ;
@@ -251,10 +244,12 @@ body {
 /* educational timeline */
 .hori-timeline .events {
   border-top: 3px solid #e9ecef;
+  
 }
 .hori-timeline .events .event-list {
   display: block;
   position: relative;
+  align-items: flex-start;
   text-align: center;
   padding-top: 70px;
   margin-right: 0;
