@@ -1,6 +1,6 @@
 body {
   background-color: rgb(245, 245, 245);
-  
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .sosmed a i {
@@ -301,8 +301,15 @@ body {
 }
 
 
+.list-contact{
+  font-size: 1.2em;
+}
 
-
+footer{
+  width: 100%;
+  flex-direction: column;
+  height: 20vh;
+}
 
 
 

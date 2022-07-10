@@ -4,10 +4,14 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Fuad Amsyari</title>
+      <title>Fuad Amsyari | Portfolio</title>
       <!-- css bootstrap -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
       <!-- css ku -->
       <link rel="stylesheet" href="style.css" />
     </head>
@@ -21,11 +25,11 @@
           </button>
           <div class="menu collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Skills</a>
-              <a class="nav-link" href="#">Work Experience</a>
-              <a class="nav-link" href="#">Educational Background</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" aria-current="page" href="">Home</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#work">Work Experience</a>
+              <a class="nav-link" href="#edu">Educational Background</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
             <div class="sosmed collapse navbar-collapse justify-content-end">
@@ -58,7 +62,7 @@
           </div>
       </div>
       <!-- skils -->
-      <div class="container">
+      <div class="container" id="skills">
                   <h1 class="mt-5 mb-5 text-center">Skills / Keahlian</h1>
           <div class="row mt-4">
               <div class="col-md-6">
@@ -85,7 +89,7 @@
       </div>
 
       <!-- timeline -->
-      <div class="container">
+      <div class="container" id="work">
         <h2 class="text-center mt-5 mb-5">Work Exeperience</h2>
         <div class="timeline timelineku">
           <!-- baris cerita ke 1 -->
@@ -156,10 +160,8 @@
         </div>
 
         <!-- educational -->
-        <div class="container">
+        <div class="container" id="edu">
           <h2 class="text-center mt-5 mb-5">Educational Background</h2>
-          
-          <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card">
@@ -204,7 +206,7 @@
                                         <div class="px-4">
                                             <div class="event-date bg-soft-warning text-warning">on going</div>
                                             <h5 class="font-size-16">UNIVERSITAS TERBUKA</h5>
-                                            <p class="text-muted">Saya Sedang Menempuh Pendidikan Tinggi di Universitas Terbuka, Fakultas Sains dan Teknologi, Jurusan Teknik, Program Studi Sistem Informasi.</p>
+                                            <p class="text-muted">Saya Sedang Menempuh Pendidikan Perguruan Tinggi Universitas Terbuka, Fakultas Sains dan Teknologi, Jurusan Teknik, Program Studi Sistem Informasi Semester 3.</p>
                                             <div>
                                                 <a href="#" class="btn btn-primary btn-sm">Read more</a>
                                             </div>
@@ -219,19 +221,21 @@
             </div>
         </div>
 
-
         <!-- contact -->
-        <div class="container">
+        <div class="container mt-5 mb-5 text-center" id="contact">
           <h2 class="text-center mt-5 mb-5">Contact</h2>
-          <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
-          <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
-          <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
-          <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+          <div class="list-contact">
+            <div class="shadow p-3 mb-5 bg-body rounded"><i class="bi bi-whatsapp"></i> 0895 - 2221 - 5156</div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded"><i class="bi bi-whatsapp"></i> 0851 - 5820 - 0130</div>
+            <div class="shadow p-3 mb-5 bg-body rounded"><i class="bi bi-envelope"></i> fuadamsyari.act@gmail.com</div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded"><i class="bi bi-house-door"></i> Desa Kuniran RT 03 RW 02, Kecamatan Batangan, Kabupaten Pati 59186</div>
+          </div>
         </div>
 
-      <div class="bg-dark container">
-        asdsad    
-      </div>
+      <footer class="bg-light mt-5 container-fluid d-flex justify-content-center align-items-center">
+        <h5>Fuad Amsyari</h5>
+        <h6>© 2021 copyright all right reserved</h6>
+      </footer>
       <!-- js bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
