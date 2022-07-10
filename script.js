@@ -1,8 +1,7 @@
-const tombol = document.getElementsByClassName('tomvolcv');
+let tombol = document.querySelectorAll('.tombol');
 
-function myFunction() {
-  tombol.classList.remove('btn');
-}
-function myfunction() {
-  alert('taai!');
-}
+console.log(tombol);
+
+tombol.addEventListerner('mouseover', function (e) {
+  console.log('asdasdasd');
+});
