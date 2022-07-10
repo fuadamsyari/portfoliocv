@@ -17,7 +17,6 @@ body {
   font-size: 1.2em;
 }
 
-
 .foto img {
   border-radius: 50%;
   border: 5px solid whitesmoke;
@@ -26,9 +25,8 @@ body {
   height: 20em;
 }
 
-
 .listskills li {
-  background-color: rgb(245, 245, 245) ;
+  background-color: rgb(245, 245, 245);
 }
 
 .skill1 {
@@ -38,9 +36,7 @@ body {
 .skill2 img {
   max-width: 25em;
   min-width: 15em;
-  background-colo;
 }
-
 
 /* timeline */
 
@@ -60,7 +56,7 @@ body {
   overflow: hidden;
 }
 .timeline:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 50%;
@@ -102,7 +98,7 @@ body {
   text-align: center;
 }
 .timeline-row .timeline-content:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 20px;
   height: 16px;
@@ -110,7 +106,7 @@ body {
   background: #1a233a;
 }
 .timeline-row .timeline-content:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 20px;
   right: -49px;
@@ -196,55 +192,53 @@ body {
 
 @media (max-width: 992px) {
   .timeline {
-      padding: 15px;
+    padding: 15px;
   }
   .timeline:after {
-      border: 0;
+    border: 0;
   }
   .timeline .timeline-row:nth-child(odd) {
-      padding: 0;
+    padding: 0;
   }
   .timeline .timeline-row:nth-child(odd) .timeline-time {
-      position: relative;
-      top: 0;
-      left: 0;
-      margin: 0 0 10px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 10px 0;
   }
   .timeline .timeline-row:nth-child(odd) .timeline-content {
-      margin: 0;
+    margin: 0;
   }
   .timeline .timeline-row:nth-child(odd) .timeline-content:before {
-      display: none;
+    display: none;
   }
   .timeline .timeline-row:nth-child(odd) .timeline-content:after {
-      display: none;
+    display: none;
   }
   .timeline .timeline-row:nth-child(even) {
-      padding: 0;
+    padding: 0;
   }
   .timeline .timeline-row:nth-child(even) .timeline-time {
-      position: relative;
-      top: 0;
-      left: 0;
-      margin: 0 0 10px 0;
-      text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 10px 0;
+    text-align: left;
   }
   .timeline .timeline-row:nth-child(even) .timeline-content {
-      margin: 0;
+    margin: 0;
   }
   .timeline .timeline-row:nth-child(even) .timeline-content:before {
-      display: none;
+    display: none;
   }
   .timeline .timeline-row:nth-child(even) .timeline-content:after {
-      display: none;
+    display: none;
   }
 }
-
 
 /* educational timeline */
 .hori-timeline .events {
   border-top: 3px solid #e9ecef;
-  
 }
 .hori-timeline .events .event-list {
   display: block;
@@ -255,7 +249,7 @@ body {
   margin-right: 0;
 }
 .hori-timeline .events .event-list:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 36px;
   border-right: 2px dashed #dee2e6;
@@ -273,44 +267,39 @@ body {
 }
 @media (min-width: 1140px) {
   .hori-timeline .events .event-list {
-      display: inline-block;
-      width: 24%;
-      padding-top: 45px;
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
   }
   .hori-timeline .events .event-list .event-date {
-      top: -12px;
+    top: -12px;
   }
 }
 .bg-soft-primary {
-  background-color: rgba(64,144,203,.3)!important;
+  background-color: rgba(64, 144, 203, 0.3) !important;
 }
 .bg-soft-success {
-  background-color: rgba(71,189,154,.3)!important;
+  background-color: rgba(71, 189, 154, 0.3) !important;
 }
 .bg-soft-danger {
-  background-color: rgba(231,76,94,.3)!important;
+  background-color: rgba(231, 76, 94, 0.3) !important;
 }
 .bg-soft-warning {
-  background-color: rgba(249,213,112,.3)!important;
+  background-color: rgba(249, 213, 112, 0.3) !important;
 }
 .card {
   border: none;
   margin-bottom: 24px;
-  -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
-  box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+  -webkit-box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
+  box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
 }
 
-
-.list-contact{
+.list-contact {
   font-size: 1.2em;
 }
 
-footer{
+footer {
   width: 100%;
   flex-direction: column;
   height: 20vh;
 }
-
-
-
-
