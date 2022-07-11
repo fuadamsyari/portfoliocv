@@ -1,3 +1,5 @@
+AOS.init();
+
 let tombol = document.querySelectorAll('.tombol');
 
 console.log(tombol);
