@@ -19,7 +19,7 @@ body {
 
 .foto img {
   border-radius: 50%;
-  border: 5px solid whitesmoke;
+  border: 5px solid rgb(163, 163, 163);
   margin: 3em;
   width: 20em;
   height: 20em;
