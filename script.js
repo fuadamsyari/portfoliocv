@@ -1,9 +1,12 @@
 AOS.init();
 
-let tombol = document.querySelectorAll('.tombol');
+const tombol = document.querySelector('.tombol');
 
-console.log(tombol);
-
-tombol.addEventListerner('mouseover', function (e) {
-  console.log('asdasdasd');
+tombol.addEventListener('mouseover', function () {
+  this.classList.add('btn-outline-danger');
+  this.classList.remove('btn-secondary');
+});
+tombol.addEventListener('mouseout', function () {
+  this.classList.add('btn-secondary');
+  this.classList.remove('btn-outline-danger');
 });
