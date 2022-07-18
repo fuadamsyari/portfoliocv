@@ -3,6 +3,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.page-scroll {
+  cursor: pointer;
+}
+
 .sosmed a i {
   color: black;
   margin: 0 0.2em;
