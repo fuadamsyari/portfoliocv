@@ -20,6 +20,7 @@ pscrl.forEach((item) => {
   item.addEventListener('click', function () {
     let tujuan = item.getAttribute('data-link');
     let elemenTujuan = document.querySelector(tujuan);
-    elemenTujuan.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    elemenTujuan.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    // elemenTujuan.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   });
 });
